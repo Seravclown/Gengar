@@ -105,6 +105,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
   border: solid !important;
 border-color: #d23ae0 !important;
   border-radius: 8px !important;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 /* "Post" Button under the Comment Box */
