@@ -1,5 +1,7 @@
 /* CSS Template by WAS #387866, you may edit or sell this template (premade or comms, idc) BUT you may NOT remove the Credit on the breadcrumb or this text unless your coding becomes unrecognizable from mine. If you have any Questions about this Template feel free to PM WAS on Lioden! :3 */
-
+/* FONTS - Import from Google Fonts */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
 /* Background & Description Color */
 body {
   background: url('https://i.img-den.com/1046/download__6_.jpe') center center fixed !important;
@@ -77,6 +79,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	color: #d23ae0 !important;
 	font-size: 20px !important;
 	transition: 0.5s !important;
+	font-family: "Mystery Quest", cursive !important;
 }
 
 /* Big Bar on Hover */
@@ -107,6 +110,7 @@ border-color: #d23ae0 !important;
 /* "Post" Button under the Comment Box */
 #postComment {
   background: #60337d !important;
+ font-family: "Mystery Quest", cursive !important;
 }
 
 /* Small Bar below Navbar (Home / ___s Den) */
@@ -121,6 +125,7 @@ border-color: #d23ae0 !important;
 /* Color of the ___s Den Text IN the breadcrumb */
 .breadcrumb .active {
   color: #d23ae0 !important;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 /* Credits */
@@ -130,6 +135,7 @@ border-color: #d23ae0 !important;
   position: absolute;
   right: 13%;
   z-index: 100
+      font-family: "Mystery Quest", cursive !important; 
 }
 
 /* Adjusting the Credits position for smaller Screens */
@@ -159,6 +165,7 @@ input.floatright:hover {
   border: solid !important;
   border-radius: 0px !important;
   color: #d23ae0 !important;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -170,6 +177,7 @@ button.button:hover {
   border-radius: 3px !important;
   text-shadow: none !important;
   color: #d23ae0 !important;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 /* Warnings (Lions leaving soon, Hungry Lions, Not Nested,came back from Patrolling, finished Hunting) */
@@ -180,6 +188,7 @@ button.button:hover {
   border: none !important;
   color: #d23ae0 !important;
   border-radius: 4px !important;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 /*Header 1 ('___'s Den) */
@@ -188,6 +197,7 @@ h1 {
    text-shadow:-2px -2px 2px #000  !important;
   font-size: 43px !important;
   text-align: center !important;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -195,6 +205,7 @@ h1 {
 h3 {
   color:rgba(232, 102, 232,.8) !important;
      text-shadow:-2px -2px 2px #8a2991  !important;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -205,6 +216,7 @@ h3 {
   font-size: 11px;
   text-align: center !important;
   padding: 3px 7px 3px 5px !important;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -215,6 +227,7 @@ h3 {
 box-shadow: none !important;
 border: none !important;
 border-radius: 4px !important;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -223,6 +236,7 @@ border-radius: 4px !important;
   color: #d23ae0 !important;
   font-size: 26px !important;
   font-family: "Crimson Text", serif !important;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -231,6 +245,7 @@ border-radius: 4px !important;
   background: rgba(218,217,215,0.2) !important;
   color: #d23ae0 !important;
   border: none !important
+      font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -239,6 +254,7 @@ border-radius: 4px !important;
   background: rgba(195,194,190,0.2) !important;
   color: #d23ae0 !important;
   border: none !important
+      font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -247,6 +263,7 @@ border-radius: 4px !important;
   background: rgba(195,194,190,0.3) !important;
   color: #d23ae0 !important;
   border: none !important
+      font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -254,11 +271,13 @@ border-radius: 4px !important;
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
   background-color: rgba(36, 10, 52,0.4) !important;
   border-left: none;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 /* Timestamps */
 .s-chat-message_timestamp {
   color: #d23ae0 !important;
+    font-family: "Mystery Quest", cursive !important;
 }
 
 /* BG of Chatbox */
@@ -282,6 +301,7 @@ button#label_currentChannel {
   background: rgba(148,144,141,0.3) !important;
   color: #d23ae0 !important;
   border: none !important
+      font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -301,20 +321,22 @@ table#player img {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 .inner-table .left {
   background: rgba(218,217,215,0.2) !important;
-  color: #f0f0f0 !important;
+  color: #fff !important;
   border-radius: 0px !important;
   border-top-left-radius: 5px 5px !important;
   border-bottom-left-radius: 5px 5px !important;
+     font-family: "Mystery Quest", cursive !important;
 }
 
 
 /* Color behind the number of all of the things above */
 .inner-table .right {
   background: rgba(195,194,190,0.2) !important;
-  color: #f0f0f0 !important;
+  color: #fff !important;
   border-radius: 0px !important;
   border-top-right-radius: 5px 5px !important;
   border-bottom-right-radius: 5px 5px !important;
+     font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -328,6 +350,7 @@ td.right, #about .right > td {
 /* Kings Title */
 .xlarge.b {
     color: #f0f0f0 !important; 
+     font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -353,6 +376,7 @@ td.right, #about .right > td {
   border: none !important;
   border-radius: 3px !important;
   color: #f0f0f0 !important;
+     font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -362,6 +386,7 @@ td.right, #about .right > td {
   color: #f0f0f0 !important;
   border: none !important;
   border-radius: 3px !important
+       font-family: "Mystery Quest", cursive !important;
 }
 
 /* Color behind King Dynasty, Pride Dynasty, etc */
@@ -370,6 +395,7 @@ div.left {
   background: rgba(218,217,215,0.1) !important;
   border: none;
   border-radius: 0px !important
+       font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -384,6 +410,7 @@ select[disabled] {
   color: #f0f0f0 !important;
   box-shadow: none !important;
   text-shadow: none !important
+       font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -392,6 +419,7 @@ select[disabled] {
   background: rgba(148,144,141,0.3) !important;
   color: #f0f0f0 !important;
   border-radius: 0px !important;
+     font-family: "Mystery Quest", cursive !important;
 }
 
 /* Area BELOW the Above mentioned */
@@ -405,6 +433,7 @@ select[disabled] {
 /* Account Options on/off Toggle Switch */
 div.slider.round  {
   background: #fff !important;
+     font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -417,14 +446,14 @@ div.slider.round::before {
 /* Link Color */
 a:link,
 a:visited {
-  color: #dad9d7 !important;
+  color: #f553ca !important;
   font-weight: normal;
 }
 
 
 /* Link Color on Hover */
 a:hover {
-  color: #dad9d7!important;
+  color: #ff9ce4!important;
 }
 
 /* bar behind Lions with Mutation, Kings Name etc */
@@ -434,6 +463,7 @@ th {
   background: rgba(195,194,190,0.2) !important;
   color: #f0f0f0 !important;
   border-radius: 0px
+       font-family: "Mystery Quest", cursive !important;
 }
 
 
@@ -542,6 +572,7 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm,
 div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
   color: #f0f0f0 !important;
   text-shadow: none !important
+       font-family: "Mystery Quest", cursive !important;
 }
 
 
